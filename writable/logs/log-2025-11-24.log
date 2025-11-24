@@ -1,0 +1,151 @@
+CRITICAL - 2025-11-24 14:30:39 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 14:30:46 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 14:43:50 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 14:44:32 --> ErrorException: Undefined array key "namabarang"
+[Method: GET, Route: Masuk]
+in APPPATH\Views\Masuk\index.php on line 26.
+ 1 APPPATH\Views\Masuk\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namabarang"', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('masuk/index', [], true)
+ 5 APPPATH\Controllers\Masuk.php(22): view('masuk/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 14:45:28 --> ErrorException: Undefined array key "namabarang"
+[Method: GET, Route: Masuk]
+in APPPATH\Views\Masuk\index.php on line 26.
+ 1 APPPATH\Views\Masuk\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namabarang"', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('masuk/index', [], true)
+ 5 APPPATH\Controllers\Masuk.php(22): view('masuk/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 14:45:45 --> ErrorException: Undefined array key "namabarang"
+[Method: GET, Route: Masuk]
+in APPPATH\Views\Masuk\index.php on line 26.
+ 1 APPPATH\Views\Masuk\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namabarang"', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('masuk/index', [], true)
+ 5 APPPATH\Controllers\Masuk.php(22): view('masuk/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:06:49 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_masuk::getAllData
+[Method: GET, Route: Masuk]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Masuk.php(16): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:11:04 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_masuk::getAllData
+[Method: GET, Route: Masuk]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Masuk.php(16): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:12:29 --> ErrorException: Undefined array key "namabarang"
+[Method: GET, Route: Masuk]
+in APPPATH\Views\Masuk\index.php on line 27.
+ 1 APPPATH\Views\Masuk\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namabarang"', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('masuk/index', [], true)
+ 5 APPPATH\Controllers\Masuk.php(22): view('masuk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:43:51 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_masuk::filterByMonth
+[Method: GET, Route: Masuk]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Masuk.php(17): CodeIgniter\Model->__call('filterByMonth', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:45:12 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_masuk::filterByMonth
+[Method: GET, Route: Masuk]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Masuk.php(17): CodeIgniter\Model->__call('filterByMonth', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:46:09 --> ErrorException: Undefined array key "namabarang"
+[Method: GET, Route: Masuk]
+in APPPATH\Views\Masuk\index.php on line 57.
+ 1 APPPATH\Views\Masuk\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namabarang"', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('masuk/index', [], true)
+ 5 APPPATH\Controllers\Masuk.php(31): view('masuk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-24 15:46:43 --> ErrorException: Undefined array key "namabarang"
+[Method: GET, Route: Masuk]
+in APPPATH\Views\Masuk\index.php on line 57.
+ 1 APPPATH\Views\Masuk\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namabarang"', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('masuk/index', [], true)
+ 5 APPPATH\Controllers\Masuk.php(31): view('masuk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

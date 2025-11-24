@@ -1,0 +1,602 @@
+CRITICAL - 2025-11-23 07:20:14 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 07:29:11 --> ErrorException: Undefined variable $judul
+[Method: GET, Route: /]
+in APPPATH\Views\layout\v_header.php on line 12.
+ 1 APPPATH\Views\layout\v_header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\layout\\v_header.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\layout\\v_header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/v_header', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('layout/v_header')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 11:37:32 --> ErrorException: Undefined variable $stock
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 8.
+ 1 APPPATH\Views\Stock\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stock', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(18): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 11:39:24 --> ErrorException: Undefined variable $stock
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 8.
+ 1 APPPATH\Views\Stock\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stock', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(18): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 11:39:26 --> ErrorException: Undefined variable $stock
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 8.
+ 1 APPPATH\Views\Stock\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stock', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(18): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 11:39:26 --> ErrorException: Undefined variable $stock
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 8.
+ 1 APPPATH\Views\Stock\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stock', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(18): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 11:39:27 --> ErrorException: Undefined variable $stock
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 8.
+ 1 APPPATH\Views\Stock\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stock', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(18): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 12:31:59 --> ErrorException: Undefined variable $namabarang
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 27.
+ 1 APPPATH\Views\Stock\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namabarang', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(22): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 12:42:20 --> Error: Cannot use object of type mysqli as array
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 25.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 4 APPPATH\Controllers\Stock.php(22): view('stock/index')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 12:44:31 --> ErrorException: Undefined array key "Deskripsi"
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 26.
+ 1 APPPATH\Views\Stock\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Deskripsi"', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(22): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 12:44:32 --> ErrorException: Undefined array key "Deskripsi"
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 26.
+ 1 APPPATH\Views\Stock\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Deskripsi"', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(22): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:05:25 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 11.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 3 APPPATH\Controllers\Stock.php(22): view('stock/index')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:06:28 --> ErrorException: Undefined variable $conn
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 10.
+ 1 APPPATH\Views\Stock\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $conn', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(22): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:10:28 --> ErrorException: Attempt to read property "namabarang" on array
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 24.
+ 1 APPPATH\Views\Stock\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "namabarang" on array', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(22): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:11:38 --> ErrorException: Attempt to read property "namabarang" on array
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 24.
+ 1 APPPATH\Views\Stock\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "namabarang" on array', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(22): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:20:03 --> ErrorException: Undefined variable $total_masuk
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 14.
+ 1 APPPATH\Views\Stock\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_masuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(22): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:23:30 --> ErrorException: Undefined variable $total_stock
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 13.
+ 1 APPPATH\Views\Stock\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_stock', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(22): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:28:05 --> ErrorException: Undefined variable $s
+[Method: GET, Route: Stock]
+in APPPATH\Views\Stock\index.php on line 37.
+ 1 APPPATH\Views\Stock\index.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 37)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(22): view('stock/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:42:49 --> ErrorException: Undefined variable $masuk
+[Method: GET, Route: Masuk]
+in APPPATH\Views\Masuk\index.php on line 24.
+ 1 APPPATH\Views\Masuk\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $masuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('masuk/index', [], true)
+ 5 APPPATH\Controllers\Masuk.php(18): view('masuk/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:43:14 --> ErrorException: Undefined variable $row
+[Method: GET, Route: Masuk]
+in APPPATH\Views\Masuk\index.php on line 25.
+ 1 APPPATH\Views\Masuk\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('masuk/index', [], true)
+ 5 APPPATH\Controllers\Masuk.php(18): view('masuk/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:44:25 --> ErrorException: Undefined variable $masuk
+[Method: GET, Route: Masuk]
+in APPPATH\Views\Masuk\index.php on line 25.
+ 1 APPPATH\Views\Masuk\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $masuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('masuk/index', [], true)
+ 5 APPPATH\Controllers\Masuk.php(18): view('masuk/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:44:26 --> ErrorException: Undefined variable $masuk
+[Method: GET, Route: Masuk]
+in APPPATH\Views\Masuk\index.php on line 25.
+ 1 APPPATH\Views\Masuk\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $masuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('masuk/index', [], true)
+ 5 APPPATH\Controllers\Masuk.php(18): view('masuk/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:44:57 --> ErrorException: Undefined variable $masuk
+[Method: GET, Route: Masuk]
+in APPPATH\Views\Masuk\index.php on line 25.
+ 1 APPPATH\Views\Masuk\index.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $masuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php', 25)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Masuk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('masuk/index', [], true)
+ 5 APPPATH\Controllers\Masuk.php(18): view('masuk/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:47:29 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:48:01 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:49:51 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:49:52 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:49:53 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:49:53 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:49:54 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:49:54 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:49:54 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:50:55 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:50:56 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:38 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:39 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:39 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:39 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:39 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:40 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:40 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:40 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:40 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:41 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:41 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:52:41 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:53:10 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:53:11 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:53:11 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:53:12 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:54:50 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:54:59 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:55:00 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:55:00 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-23 13:55:05 --> Error: Class "App\Models\M_masuk" not found
+[Method: GET, Route: Masuk]
+in APPPATH\Controllers\Masuk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masuk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masuk))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
