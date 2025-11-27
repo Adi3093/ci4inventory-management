@@ -6,13 +6,12 @@ use CodeIgniter\Model;
 
 class M_stock extends Model
 {
-    public function __construct()
-    {
-        $this->db = db_connect();
-    }
+    protected $table = 'stock';
+    protected $primaryKey = 'idbarang';
+    protected $allowedFields = ['namabarang', 'deskripsi', 'stock', 'satuan'];
 
     public function getAllData()
     {
-        return $this->db->table('stock')->get()->getResultArray();
+        return $this->findAll();
     }
 }

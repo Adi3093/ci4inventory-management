@@ -26,3 +26,212 @@ in APPPATH\Views\layout\v_header.php on line 12.
  9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 16:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 16:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 16:55:22 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_stock::getAllData
+[Method: GET, Route: masuk]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Masuk.php(28): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\masuk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\masuk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 17:00:04 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_stock::getAllData
+[Method: GET, Route: masuk]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Masuk.php(28): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\masuk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\masuk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 17:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 17:05:12 --> ErrorException: Undefined variable $s
+[Method: GET, Route: stock]
+in APPPATH\Views\Stock\index.php on line 39.
+ 1 APPPATH\Views\Stock\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(21): view('stock/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-25 17:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 17:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 17:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 17:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 17:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 17:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 17:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 17:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 17:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 18:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 18:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 18:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 18:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 18:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 18:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-25 18:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-25 18:29:30 --> ErrorException: Undefined variable $s
+[Method: GET, Route: stock]
+in APPPATH\Views\Stock\index.php on line 39.
+ 1 APPPATH\Views\Stock\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(21): view('stock/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 18:31:02 --> ErrorException: Undefined variable $s
+[Method: GET, Route: stock]
+in APPPATH\Views\Stock\index.php on line 39.
+ 1 APPPATH\Views\Stock\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(21): view('stock/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 18:32:37 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_stock::getAllData
+[Method: GET, Route: masuk]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Masuk.php(28): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\masuk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\masuk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 18:32:47 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_stock::getAllData
+[Method: GET, Route: masuk]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Masuk.php(28): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\masuk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\masuk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 18:34:24 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_stock::getAllData
+[Method: GET, Route: masuk]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Masuk.php(28): CodeIgniter\Model->__call('getAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\masuk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\masuk))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 18:36:20 --> ErrorException: Undefined variable $s
+[Method: GET, Route: stock]
+in APPPATH\Views\Stock\index.php on line 40.
+ 1 APPPATH\Views\Stock\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(21): view('stock/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 18:39:41 --> ErrorException: Undefined variable $s
+[Method: GET, Route: stock]
+in APPPATH\Views\Stock\index.php on line 40.
+ 1 APPPATH\Views\Stock\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(21): view('stock/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 18:40:41 --> ErrorException: Undefined variable $s
+[Method: GET, Route: stock]
+in APPPATH\Views\Stock\index.php on line 40.
+ 1 APPPATH\Views\Stock\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(21): view('stock/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 18:40:42 --> ErrorException: Undefined variable $s
+[Method: GET, Route: stock]
+in APPPATH\Views\Stock\index.php on line 40.
+ 1 APPPATH\Views\Stock\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(21): view('stock/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 18:40:42 --> ErrorException: Undefined variable $s
+[Method: GET, Route: stock]
+in APPPATH\Views\Stock\index.php on line 40.
+ 1 APPPATH\Views\Stock\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(21): view('stock/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 18:40:43 --> ErrorException: Undefined variable $s
+[Method: GET, Route: stock]
+in APPPATH\Views\Stock\index.php on line 40.
+ 1 APPPATH\Views\Stock\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(21): view('stock/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-25 18:40:43 --> ErrorException: Undefined variable $s
+[Method: GET, Route: stock]
+in APPPATH\Views\Stock\index.php on line 40.
+ 1 APPPATH\Views\Stock\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $s', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php', 40)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Stock\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('stock/index', [], true)
+ 5 APPPATH\Controllers\Stock.php(21): view('stock/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Stock->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stock))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
