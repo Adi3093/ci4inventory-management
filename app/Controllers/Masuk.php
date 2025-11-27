@@ -13,7 +13,22 @@ class masuk extends Controller
         $model = new M_masuk();
         $modelstock = new M_stock;
 
-        $bulan = $this->request->getGet('bulan');
+        $bulan      = $this->request->getGet('bulan');
+        $sortBy     = $this->request->getGet('sortBy');
+        $sortOrder  = $this->request->getGet('sortOrder') ?? 'ASC';
+
+        $limit      = (int) ($this->request->getGet('limit') ?? 10);
+        $page       = (int) ($this->request->getGet('page') ?? 1);
+
+        $offset     = ($page - 1) * $limit;
+
+        if ($limit < 1) {
+            $limit = 10;
+        }
+
+        if ($page < 1) {
+            $page = 1;
+        }
 
         if (!empty($bulan)) {
             $masuk = $model->filterByMonth($bulan);
@@ -22,10 +37,15 @@ class masuk extends Controller
         }
 
         $data = [
-            'judul' => 'Barang Masuk',
-            'masuk' => $masuk,
-            'bulan' => $bulan,
-            'stockList' => $modelstock->getAllData()
+            'judul'      => 'Barang Masuk',
+            'masuk'      => $model->getFilteredData($bulan, $sortBy, $sortOrder, $limit, $offset),
+            'stockList'  => $modelstock->findAll(),    // untuk dropdown tambah
+            'bulan'      => $bulan,
+            'sortBy'     => $sortBy,
+            'sortOrder'  => $sortOrder,
+            'limit'      => $limit,
+            'page'       => $page,
+            'totalData'  => $model->countFilteredData($bulan)
         ];
 
         echo view('layout/v_header', $data);

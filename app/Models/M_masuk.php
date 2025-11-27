@@ -28,4 +28,37 @@ class M_masuk extends Model
             ->get()
             ->getResultArray();
     }
+    public function getFilteredData($bulan = null, $sortBy = null, $sortOrder = 'ASC', $limit = 10, $offset = 0)
+    {
+        $builder = $this->table($this->table)
+            ->select('masuk.*, stock.namabarang')
+            ->join('stock', 'stock.idbarang = masuk.idbarang');
+
+        // Filter bulan
+        if ($bulan) {
+            $builder->where('MONTH(masuk.tanggal)', $bulan);
+        }
+
+        // Sorting
+        if ($sortBy == 'nama') {
+            $builder->orderBy('stock.namabarang', $sortOrder);
+        } elseif ($sortBy == 'qty') {
+            $builder->orderBy('masuk.qty', $sortOrder);
+        } elseif ($sortBy == 'tanggal') {
+            $builder->orderBy('masuk.tanggal', $sortOrder);
+        }
+
+        return $builder->limit($limit, $offset)->get()->getResultArray();
+    }
+
+    public function countFilteredData($bulan = null)
+    {
+        $builder = $this->table($this->table);
+
+        if ($bulan) {
+            $builder->where('MONTH(tanggal)', $bulan);
+        }
+
+        return $builder->countAllResults();
+    }
 }
