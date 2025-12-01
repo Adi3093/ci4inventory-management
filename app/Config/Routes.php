@@ -19,3 +19,7 @@ $routes->get('stock/hapus/(:num)', 'Stock::hapus/$1');
 $routes->post('keluar/tambah', 'Keluar::tambah');
 $routes->post('keluar/update/(:num)', 'Keluar::update/$1');
 $routes->get('keluar/hapus/(:num)', 'Keluar::hapus/$1');
+$routes->get('admin', 'Admin::index');
+$routes->post('admin/tambah', 'Admin::tambah');
+$routes->post('admin/update/(:num)', 'Admin::update/$1');
+$routes->get('admin/hapus/(:num)', 'Admin::hapus/$1');

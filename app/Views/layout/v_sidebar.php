@@ -39,11 +39,9 @@
     </div>
 
     <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-            aria-expanded="true" aria-controls="collapseTwo">
-            <i class="fas fa-fw fa-user"></i>
-            <span>Admin</span>
-        </a>
+        <a class="nav-link" href="<?= base_url('admin'); ?>">
+            <i class="fas fa-fw fa-upload"></i>
+            <span>Admin</span></a>
     </li>
     <!-- close disebar btn -->
     <hr class="sidebar-divider d-none d-md-block">
