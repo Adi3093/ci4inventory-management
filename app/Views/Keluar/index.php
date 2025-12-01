@@ -43,6 +43,30 @@
                 </div>
             </form>
 
+            <form class="form-inline mb-3" method="GET">
+
+                <label class="mr-2">Entries:</label>
+                <select name="limit" class="form-control mr-3" onchange="this.form.submit()">
+                    <?php foreach ([5, 10, 15, 20, 25] as $l): ?>
+                        <option value="<?= $l ?>" <?= ($limit == $l ? 'selected' : '') ?>><?= $l ?></option>
+                    <?php endforeach; ?>
+                </select>
+
+                <label class="mr-2">Sort By:</label>
+                <select name="sortBy" class="form-control mr-3" onchange="this.form.submit()">
+                    <option value="">-- None --</option>
+                    <option value="nama" <?= ($sortBy == 'nama' ? 'selected' : '') ?>>Nama</option>
+                    <option value="qty" <?= ($sortBy == 'qty' ? 'selected' : '') ?>>Jumlah</option>
+                    <option value="tanggal" <?= ($sortBy == 'tanggal' ? 'selected' : '') ?>>Tanggal</option>
+                </select>
+
+                <select name="sortOrder" class="form-control" onchange="this.form.submit()">
+                    <option value="ASC" <?= ($sortOrder == 'ASC' ? 'selected' : '') ?>>A-Z</option>
+                    <option value="DESC" <?= ($sortOrder == 'DESC' ? 'selected' : '') ?>>Z-A</option>
+                </select>
+
+            </form>
+
             <!-- TABEL BARANG KELUAR -->
             <table class="table table-striped">
                 <thead>
@@ -82,6 +106,22 @@
                     <?php endforeach; ?>
                 </tbody>
             </table>
+
+            <?php
+            $totalPages = ceil($totalData / $limit);
+            ?>
+            <nav>
+                <ul class="pagination">
+                    <?php for ($i = 1; $i <= $totalPages; $i++): ?>
+                        <li class="page-item <?= ($i == $page ? 'active' : '') ?>">
+                            <a class="page-link"
+                                href="?page=<?= $i ?>&limit=<?= $limit ?>&sortBy=<?= $sortBy ?>&sortOrder=<?= $sortOrder ?>">
+                                <?= $i ?>
+                            </a>
+                        </li>
+                    <?php endfor; ?>
+                </ul>
+            </nav>
 
             <!-- MODAL TAMBAH -->
             <div class="modal fade" id="modalTambah" tabindex="-1">

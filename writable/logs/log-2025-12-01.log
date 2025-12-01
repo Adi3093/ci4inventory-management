@@ -1,0 +1,268 @@
+CRITICAL - 2025-12-01 12:11:23 --> ErrorException: Undefined variable $limit
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 50.
+ 1 APPPATH\Views\Keluar\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $limit', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(35): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:12:38 --> ErrorException: Undefined variable $limit
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 50.
+ 1 APPPATH\Views\Keluar\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $limit', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(35): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:23:27 --> ErrorException: Undefined variable $limit
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 50.
+ 1 APPPATH\Views\Keluar\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $limit', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(49): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:23:38 --> ErrorException: Undefined variable $limit
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 50.
+ 1 APPPATH\Views\Keluar\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $limit', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(49): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:25:52 --> ErrorException: Undefined variable $limit
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 50.
+ 1 APPPATH\Views\Keluar\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $limit', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(49): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:30:18 --> ErrorException: Undefined variable $limit
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 50.
+ 1 APPPATH\Views\Keluar\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $limit', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(49): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:33:49 --> ErrorException: Undefined variable $limit
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 50.
+ 1 APPPATH\Views\Keluar\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $limit', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(49): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:34:07 --> ErrorException: Undefined variable $limit
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 50.
+ 1 APPPATH\Views\Keluar\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $limit', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(49): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:41:39 --> ErrorException: Undefined variable $sortBy
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 57.
+ 1 APPPATH\Views\Keluar\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(54): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:44:13 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_keluar::countAllData
+[Method: GET, Route: keluar]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Keluar.php(48): CodeIgniter\Model->__call('countAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:47:07 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_keluar::countAllData
+[Method: GET, Route: keluar]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Keluar.php(48): CodeIgniter\Model->__call('countAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:48:43 --> ErrorException: Undefined variable $sortBy
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 57.
+ 1 APPPATH\Views\Keluar\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(54): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:56:16 --> ErrorException: Undefined variable $bulan
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 24.
+ 1 APPPATH\Views\Keluar\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(52): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:56:46 --> ErrorException: Undefined variable $bulan
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 24.
+ 1 APPPATH\Views\Keluar\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(52): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 12:57:39 --> ErrorException: Undefined variable $bulan
+[Method: GET, Route: keluar]
+in APPPATH\Views\Keluar\index.php on line 24.
+ 1 APPPATH\Views\Keluar\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulan', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Keluar\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('keluar/index', [], true)
+ 5 APPPATH\Controllers\Keluar.php(52): view('keluar/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 13:00:30 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_keluar::countAllData
+[Method: GET, Route: keluar]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Keluar.php(37): CodeIgniter\Model->__call('countAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 13:01:24 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_keluar::countAllData
+[Method: GET, Route: keluar]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Keluar.php(37): CodeIgniter\Model->__call('countAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 13:02:18 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_keluar::countAllData
+[Method: GET, Route: keluar]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Keluar.php(35): CodeIgniter\Model->__call('countAllData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 13:06:30 --> TypeError: CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in C:\laragon\www\ci4inventory\system\Model.php on line 925
+[Method: GET, Route: keluar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1514.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->limit('5', 0)
+ 2 APPPATH\Models\M_keluar.php(55): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH\Controllers\Keluar.php(30): App\Models\M_keluar->getFiltered('5', 0, 'tanggal', 'DESC')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 13:06:40 --> TypeError: CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in C:\laragon\www\ci4inventory\system\Model.php on line 925
+[Method: GET, Route: keluar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1514.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->limit('10', 0)
+ 2 APPPATH\Models\M_keluar.php(55): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH\Controllers\Keluar.php(30): App\Models\M_keluar->getFiltered('10', 0, 'tanggal', 'DESC')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-01 13:06:45 --> TypeError: CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, string given, called in C:\laragon\www\ci4inventory\system\Model.php on line 925
+[Method: GET, Route: keluar]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1514.
+ 1 SYSTEMPATH\Model.php(925): CodeIgniter\Database\BaseBuilder->limit('10', 0)
+ 2 APPPATH\Models\M_keluar.php(55): CodeIgniter\Model->__call('limit', [...])
+ 3 APPPATH\Controllers\Keluar.php(30): App\Models\M_keluar->getFiltered('10', 0, 'nama', 'DESC')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Keluar->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluar))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

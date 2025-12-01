@@ -4,29 +4,41 @@ namespace App\Controllers;
 
 use App\Models\M_keluar;
 use App\Models\M_stock;
-use CodeIgniter\Controller;
 
-class Keluar extends Controller
+class Keluar extends BaseController
 {
     public function index()
     {
         $keluarModel = new M_keluar();
         $stockModel  = new M_stock();
 
-        // Ambil bulan dari GET
-        $bulan = $this->request->getGet('bulan');
+        // GET parameters
+        $bulan      = $this->request->getGet('bulan');
+        $sortBy     = $this->request->getGet('sortBy');
+        $sortOrder  = $this->request->getGet('sortOrder') ?? 'ASC';
+        $limit      = (int)($this->request->getGet('limit') ?? 10);
+        $page       = (int)($this->request->getGet('page') ?? 1);
+        $offset     = ($page - 1) * $limit;
 
-        if ($bulan) {
-            $keluar = $keluarModel->getByMonth($bulan);
-        } else {
-            $keluar = $keluarModel->getAllData();
-        }
+        // Data keluar setelah filtering + sorting
+        $keluar = $keluarModel->getFiltered($bulan, $sortBy, $sortOrder, $limit, $offset);
+
+        $totalData = $keluarModel->countFiltered($bulan);
 
         $data = [
-            'judul'      => 'Barang Keluar',
-            'keluar'     => $keluar,
-            'stockList'  => $stockModel->findAll(),
-            'bulan'      => $bulan
+            'judul'     => 'Barang Keluar',
+            'stockList' => $stockModel->findAll(),
+            'keluar'    => $keluar,
+
+            // pagination
+            'totalData' => $totalData,
+            'limit'     => $limit,
+            'page'      => $page,
+
+            // filters
+            'bulan'     => $bulan,
+            'sortBy'    => $sortBy,
+            'sortOrder' => $sortOrder,
         ];
 
         echo view('layout/v_header', $data);
@@ -40,29 +52,26 @@ class Keluar extends Controller
     {
         $model = new M_keluar();
 
-        $data = [
+        $model->insert([
             'idbarang' => $this->request->getPost('idbarang'),
             'qty'      => $this->request->getPost('qty'),
-            'penerima' => $this->request->getPost('penerima')
-        ];
+            'penerima' => $this->request->getPost('penerima'),
+            'tanggal'  => date('Y-m-d'),
+        ]);
 
-        $model->insert($data);
-
-        return redirect()->to('/keluar')->with('success', 'Data barang keluar berhasil ditambahkan!');
+        return redirect()->to('/keluar');
     }
 
     public function update($id)
     {
         $model = new M_keluar();
 
-        $data = [
+        $model->update($id, [
             'qty'      => $this->request->getPost('qty'),
-            'penerima' => $this->request->getPost('penerima')
-        ];
+            'penerima' => $this->request->getPost('penerima'),
+        ]);
 
-        $model->update($id, $data);
-
-        return redirect()->to('/keluar')->with('success', 'Data berhasil diupdate!');
+        return redirect()->to('/keluar');
     }
 
     public function hapus($id)
@@ -70,6 +79,6 @@ class Keluar extends Controller
         $model = new M_keluar();
         $model->delete($id);
 
-        return redirect()->to('/keluar')->with('success', 'Data berhasil dihapus!');
+        return redirect()->to('/keluar');
     }
 }

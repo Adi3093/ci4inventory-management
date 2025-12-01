@@ -10,7 +10,6 @@ class Stock extends BaseController
     {
         $model = new \App\Models\M_stock();
 
-        // Ambil dan bersihkan parameter GET
         $sortBy    = $this->request->getGet('sortBy') ?? '';
         $sortOrder = $this->request->getGet('sortOrder') ?? 'ASC';
         $limit     = (int) ($this->request->getGet('limit') ?? 10);
@@ -19,13 +18,8 @@ class Stock extends BaseController
         if ($limit <= 0) $limit = 10;
         if ($page <= 0)  $page = 1;
 
-        // hitung offset untuk query
         $offset = ($page - 1) * $limit;
-
-        // total data (untuk paging)
         $totalData = $model->countAllData();
-
-        // ambil data yang sudah difilter/sort/paginate
         $stock = $model->getFilteredData($sortBy, $sortOrder, $limit, $offset);
 
         $data = [

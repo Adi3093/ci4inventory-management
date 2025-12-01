@@ -8,26 +8,40 @@ class M_keluar extends Model
 {
     protected $table = 'keluar';
     protected $primaryKey = 'idkeluar';
-    protected $allowedFields = ['idbarang', 'tanggal', 'qty', 'penerima'];
 
-    public function getByMonth($bulan)
+    protected $allowedFields = ['idbarang', 'qty', 'penerima', 'tanggal'];
+
+    public function getFiltered($bulan = null, $sortBy = null, $sortOrder = 'ASC', $limit = 10, $offset = 0)
     {
-        return $this->db->table('keluar')
+        $builder = $this->table($this->table)
             ->select('keluar.*, stock.namabarang')
-            ->join('stock', 'stock.idbarang = keluar.idbarang')
-            ->where('MONTH(tanggal)', $bulan)
-            ->orderBy('tanggal', 'DESC')
-            ->get()
-            ->getResultArray();
+            ->join('stock', 'stock.idbarang = keluar.idbarang');
+
+        // Filter bulan
+        if ($bulan) {
+            $builder->where('MONTH(tanggal)', $bulan);
+        }
+
+        // Sorting
+        if ($sortBy === 'tanggal') {
+            $builder->orderBy('tanggal', $sortOrder);
+        } elseif ($sortBy === 'nama') {
+            $builder->orderBy('stock.namabarang', $sortOrder);
+        } elseif ($sortBy === 'qty') {
+            $builder->orderBy('qty', $sortOrder);
+        }
+
+        return $builder->limit($limit, $offset)->get()->getResultArray();
     }
 
-    public function getAllData()
+    public function countFiltered($bulan = null)
     {
-        return $this->db->table('keluar')
-            ->select('keluar.*, stock.namabarang')
-            ->join('stock', 'stock.idbarang = keluar.idbarang')
-            ->orderBy('tanggal', 'DESC')
-            ->get()
-            ->getResultArray();
+        $builder = $this->table($this->table);
+
+        if ($bulan) {
+            $builder->where('MONTH(tanggal)', $bulan);
+        }
+
+        return $builder->countAllResults();
     }
 }

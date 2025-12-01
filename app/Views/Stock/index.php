@@ -35,8 +35,8 @@
 
                 <!-- Sort Order -->
                 <select name="sortOrder" class="form-control" onchange="this.form.submit()">
-                    <option value="ASC" <?= ($sortOrder == 'ASC') ? 'selected' : '' ?>>Ascending</option>
-                    <option value="DESC" <?= ($sortOrder == 'DESC') ? 'selected' : '' ?>>Descending</option>
+                    <option value="ASC" <?= ($sortOrder == 'ASC') ? 'selected' : '' ?>>A-Z</option>
+                    <option value="DESC" <?= ($sortOrder == 'DESC') ? 'selected' : '' ?>>Z-A</option>
                 </select>
 
             </form>
