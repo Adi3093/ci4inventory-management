@@ -44,4 +44,39 @@ class M_keluar extends Model
 
         return $builder->countAllResults();
     }
+    public function getChartData()
+    {
+        return $this->select("MONTH(tanggal) as bulan, COUNT(*) as jumlah")
+            ->groupBy("MONTH(tanggal)")
+            ->orderBy("bulan", "ASC")
+            ->findAll();
+    }
+    public function totalQtyKeluar()
+    {
+        return $this->selectSum('qty')->get()->getRow()->qty ?? 0;
+    }
+    public function getTahunList()
+    {
+        return $this->select("YEAR(tanggal) as tahun")
+            ->groupBy("YEAR(tanggal)")
+            ->orderBy("tahun", "DESC")
+            ->findAll();
+    }
+    public function getQtyByMonth()
+    {
+        $result = $this->select("MONTH(tanggal) AS bulan, SUM(qty) AS jumlah")
+            ->groupBy("MONTH(tanggal)")
+            ->orderBy("MONTH(tanggal)", "ASC")
+            ->findAll();
+
+        // ----- Bikin array 12 bulan (1–12), default 0 -----
+        $finalData = array_fill(1, 12, 0);
+
+        foreach ($result as $row) {
+            $finalData[(int)$row['bulan']] = (int)$row['jumlah'];
+        }
+
+        // Kembalikan sebagai array 0-index untuk Chart JS
+        return array_values($finalData);
+    }
 }

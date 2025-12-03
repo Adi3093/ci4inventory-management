@@ -35,4 +35,8 @@ class M_stock extends Model
     {
         return $this->countAll();
     }
+    public function totalStockAkhir()
+    {
+        return $this->selectSum('stock')->get()->getRow()->stock ?? 0;
+    }
 }

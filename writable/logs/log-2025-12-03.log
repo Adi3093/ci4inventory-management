@@ -1,0 +1,141 @@
+CRITICAL - 2025-12-03 14:51:18 --> Error: Class "App\Controllers\M_masuk" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-03 15:04:28 --> ErrorException: Undefined variable $bulanMasuk
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 69.
+ 1 APPPATH\Views\Home\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulanMasuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php', 69)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('Home/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-03 15:07:10 --> ErrorException: Undefined variable $bulanMasuk
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 65.
+ 1 APPPATH\Views\Home\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulanMasuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('Home/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-03 15:14:26 --> ErrorException: Undefined variable $bulanMasuk
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 57.
+ 1 APPPATH\Views\Home\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulanMasuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('Home/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-03 15:14:27 --> ErrorException: Undefined variable $bulanMasuk
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 57.
+ 1 APPPATH\Views\Home\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulanMasuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('Home/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-03 15:14:27 --> ErrorException: Undefined variable $bulanMasuk
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 57.
+ 1 APPPATH\Views\Home\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulanMasuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('Home/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-03 15:14:28 --> ErrorException: Undefined variable $bulanMasuk
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 57.
+ 1 APPPATH\Views\Home\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulanMasuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('Home/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-03 15:14:28 --> ErrorException: Undefined variable $bulanMasuk
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 57.
+ 1 APPPATH\Views\Home\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulanMasuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('Home/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-03 15:14:28 --> ErrorException: Undefined variable $bulanMasuk
+[Method: GET, Route: /]
+in APPPATH\Views\Home\index.php on line 57.
+ 1 APPPATH\Views\Home\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bulanMasuk', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\Home\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('Home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('Home/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-03 15:18:01 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_masuk::getQtyByMonth
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Model->__call('getQtyByMonth', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-03 15:18:02 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_masuk::getQtyByMonth
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Model->__call('getQtyByMonth', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
