@@ -23,3 +23,14 @@ $routes->get('admin', 'Admin::index');
 $routes->post('admin/tambah', 'Admin::tambah');
 $routes->post('admin/update/(:num)', 'Admin::update/$1');
 $routes->get('admin/hapus/(:num)', 'Admin::hapus/$1');
+$routes->get('export/stock', 'Export::stock');
+$routes->get('export/masuk', 'Export::masuk');
+$routes->get('export/keluar', 'Export::keluar');
+
+$routes->get('export/stock/pdf', 'Export::stock_pdf');
+$routes->get('export/masuk/pdf', 'Export::masuk_pdf');
+$routes->get('export/keluar/pdf', 'Export::keluar_pdf');
+
+$routes->get('export/stock/excel', 'Export::stock_excel');
+$routes->get('export/masuk/excel', 'Export::masuk_excel');
+$routes->get('export/keluar/excel', 'Export::keluar_excel');

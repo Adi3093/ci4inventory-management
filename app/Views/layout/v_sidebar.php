@@ -10,7 +10,7 @@
     <hr class="sidebar-divider my-0">
     <li class="nav-item">
         <a class="nav-link" href="<?= base_url('stock'); ?>">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <i class="fas fa-fw fa-book"></i>
             <span>Stock Barang</span></a>
     </li>
 
@@ -40,7 +40,7 @@
 
     <li class="nav-item">
         <a class="nav-link" href="<?= base_url('admin'); ?>">
-            <i class="fas fa-fw fa-upload"></i>
+            <i class="fas fa-fw fa-user"></i>
             <span>Admin</span></a>
     </li>
     <!-- close disebar btn -->

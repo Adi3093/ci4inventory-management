@@ -91,13 +91,15 @@ class masuk extends Controller
 
         return redirect()->to(base_url('masuk'))->with('sukses', 'Data berhasil dihapus!');
     }
-    public function getQtyByMonth()
+    public function export()
     {
-        return $this->db->table($this->table)
-            ->select("MONTH(tanggal) AS bulan, COALESCE(SUM(qty), 0) AS jumlah")
-            ->groupBy("MONTH(tanggal)")
-            ->orderBy("bulan")
-            ->get()
-            ->getResultArray();
+        $model = new \App\Models\M_masuk();
+
+        $data = [
+            'judul' => 'Export Barang Masuk',
+            'masuk' => $model->findAll()
+        ];
+
+        echo view('export/masuk_export', $data);
     }
 }

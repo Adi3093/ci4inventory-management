@@ -81,4 +81,15 @@ class Keluar extends BaseController
 
         return redirect()->to('/keluar');
     }
+    public function export()
+    {
+        $model = new \App\Models\M_keluar();
+
+        $data = [
+            'judul' => 'Export Barang Keluar',
+            'keluar' => $model->findAll()
+        ];
+
+        echo view('export/keluar_export', $data);
+    }
 }

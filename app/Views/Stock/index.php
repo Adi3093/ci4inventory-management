@@ -10,7 +10,7 @@
             <button class="btn btn-primary" data-toggle="modal" data-target="#modalTambah">
                 Tambah Barang
             </button>
-            <a href="export.php" class="btn btn-info">Export Data</a>
+            <a href="<?= base_url('export/stock') ?>" class="btn btn-info">Export Data</a>
         </div>
         <div class="card-body">
             <form method="GET" class="form-inline mb-3">

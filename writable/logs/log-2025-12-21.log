@@ -1,0 +1,14 @@
+CRITICAL - 2025-12-21 09:44:54 --> ErrorException: Undefined variable $data
+[Method: GET, Route: export/masuk]
+in APPPATH\Views\export\masuk.php on line 19.
+ 1 APPPATH\Views\export\masuk.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\ci4inventory\\app\\Views\\export\\masuk.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci4inventory\\app\\Views\\export\\masuk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('export/masuk', [], true)
+ 5 APPPATH\Controllers\Export.php(27): view('export/masuk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Export->masuk()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Export))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
